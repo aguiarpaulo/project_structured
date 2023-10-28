@@ -18,6 +18,10 @@ mkdocs = "^1.5.3"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.poetry.dependencies]
+pytest = "^7.0"
+
+
 [tool.taskipy.tasks]
 format = "isort . && blue ."
 
