@@ -11,15 +11,26 @@ pyenv install 3.11.3
 pyenv local 3.11.3
 ```
 3. Install project dependencies:
+```bash
 poetry install
-3. Activate the virtual environment:
+```
+4. Activate the virtual environment:
+```bash
 poetry shell
-3. Run tests to ensure everything is working as expected:
+```
+5. Run tests to ensure everything is working as expected:
+```bash
 poetry run pytest -v
-3. Run the command to view project documentation:
+```
+6. Run the command to view project documentation:
+```bash
 mkdocs serve
-3. Run the pipeline run command to perform ETL:
+```
+7. Run the pipeline run command to perform ETL:
+```bash
 python3 app/main.py
-3. Check in the data/output folder if the file was generated correctly.
+```
+8. Check in the data/output folder if the file was generated correctly.
+```
 Contact:
 Paulo Aguiar - aguiarlapaulo@gmail.com
