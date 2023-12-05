@@ -1,21 +1,25 @@
 #My ETL Project
-Clone the repository:
+1. Clone the repository:
+```bash
 git clone https://github.com/aguiarpaulo/project_structured.git
 
 cd project_structured
-Configure the correct Python version with pyenv:
+```
+2. Configure the correct Python version with pyenv:
+```bash
 pyenv install 3.11.3
 pyenv local 3.11.3
-Install project dependencies:
+```
+3. Install project dependencies:
 poetry install
-Activate the virtual environment:
+3. Activate the virtual environment:
 poetry shell
-Run tests to ensure everything is working as expected:
+3. Run tests to ensure everything is working as expected:
 poetry run pytest -v
-Run the command to view project documentation:
+3. Run the command to view project documentation:
 mkdocs serve
-Run the pipeline run command to perform ETL:
+3. Run the pipeline run command to perform ETL:
 python3 app/main.py
-Check in the data/output folder if the file was generated correctly.
+3. Check in the data/output folder if the file was generated correctly.
 Contact:
 Paulo Aguiar - aguiarlapaulo@gmail.com
